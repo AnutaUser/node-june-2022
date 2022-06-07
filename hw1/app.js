@@ -1,5 +1,6 @@
 const fs = require('fs');
-const {users} = require('./users/users')
+const {users} = require('./users/users');
+require('./tasks/task1');
 
 
 // fs.mkdir('./boys', (err, data) => {
@@ -56,4 +57,4 @@ const {users} = require('./users/users')
 //     console.log(err);
 // });
 
-console.log(users);
+// console.log(users);
