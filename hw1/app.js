@@ -1,6 +1,6 @@
-const fs = require('fs');
-const {users} = require('./users/users');
-require('./tasks/task1');
+// const fs = require('fs');
+// const {users} = require('./users/users');
+// require('./tasks/task1');
 
 
 // fs.mkdir('./boys', (err, data) => {

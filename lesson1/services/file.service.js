@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
 // fs.appendFile('./data.txt', 'Welcome node! ', (err) => {
 //     if (err) {
@@ -91,23 +91,23 @@ const path = require('path');
 // });
 
 
-fs.readdir('./', (err, files) => {
-    if (err) {
-        console.log(err);
-        return;
-    }
-    for (const file of files) {
-
-        fs.stat(`./${file}`, (err1, stats) => {
-            if (err1) {
-                console.log(err1);
-                return;
-            }
-            console.log(`${file}`);
-            console.log('++++++++++++++++++++++++++++++++');
-            console.log(stats.isFile(), 'stats.isFile()');
-            console.log(stats.isDirectory(), 'stats.isDirectory()');
-            console.log('*******************************');
-        });
-    }
-});
+// fs.readdir('./', (err, files) => {
+//     if (err) {
+//         console.log(err);
+//         return;
+//     }
+//     for (const file of files) {
+//
+//         fs.stat(`./${file}`, (err1, stats) => {
+//             if (err1) {
+//                 console.log(err1);
+//                 return;
+//             }
+//             console.log(`${file}`);
+//             console.log('++++++++++++++++++++++++++++++++');
+//             console.log(stats.isFile(), 'stats.isFile()');
+//             console.log(stats.isDirectory(), 'stats.isDirectory()');
+//             console.log('*******************************');
+//         });
+//     }
+// });
